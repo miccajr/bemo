@@ -1,0 +1,97 @@
+html{
+	scroll-behavior: smooth;
+}
+nav{
+	width:100%;
+	background: #262626;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+li{
+	float: right;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#home{
+	height: 770px;
+	display: inline-block;
+	width: 100%;
+}
+
+.jumbotron {
+    background-color: #F8F8FF;
+    background-size: cover;
+    text-align: center;
+	height: 770px;
+    margin-top: -120px;
+}
+
+.jumbotron p {
+    color: black;
+}
+
+#masalah{
+    background-color: #6495ED;
+	height: 770px;
+	display: inline-block;
+    width: 100%;
+    font-family: "Comic Sans MS", cursive;
+    text-align: center;
+    margin-top: -80px;
+}
+
+#about{
+    background-image: url(img/about.jpg);
+    background-size: cover;
+	height: 770px;
+	color:#fff;
+	display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#video{
+	height: 770px;
+	display: inline-block;
+	width: 100%;
+    background-color: #5F9EA0;
+    text-align: center;
+    margin-top: -80px;
+}
+#keluhan{
+    font-family: "Comic Sans MS", cursive;
+    background-color: #F8F8FF;
+    position: relative;
+    height: 770px;
+    margin-top: -120px;
+}
+
+.navtop {
+    color: white;
+    }
+
+.stroke {
+    color: #fff;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.05em #000;
+ }
+
+.footer{
+    width: 100%;
+    height: 275px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #333;
+    color: #fff;
+}
